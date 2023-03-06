@@ -6,20 +6,25 @@
     </head>
     <body>
 
-        <div class="nav">
-            <a href="index.html">Back</a>
+        <div>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html">Back</a></li>
+            </ul>    
         </div>
 
         <div class="google-img">
-            <img src="/images/google.png">
+            <img src="/images/google-images.png">
         </div>
 
         <div class="search">
             <form action="https://www.google.com/search">
                 
-                <input id="search-txt" type="text" name="q">
-                <input id="search-btn" type="submit" value="Image Search">
-                
+                <input id="search-txt" type="text" name="q" autofocus>
+                <input type="hidden" name="tbm" value="isch">
+                <div class="buttons">
+                    <input id="search-btn" type="submit" value="Image Search">
+                </div>
+     
             </form>
         </div>
 

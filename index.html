@@ -6,21 +6,26 @@
     </head>
     <body>
 
-        <div class="nav">
-            <a href="image.html">Image Search</a>
-            <a href="advanced.html">Advanced Search</a>
+        <div>
+            <ul class="nav">
+                <li class="nav-item"><a href="image.html">Image Search</a></li>
+                <li class="nav-item"><a href="advanced.html">Advanced Search</a></li>
+            </ul>    
         </div>
 
         <div class="google-img">
-            <img src="/images/google.png">
+            <img src="/images/google.png" alt="the Google logo">
         </div>
 
         <div class="search">
             <form action="https://www.google.com/search">
                 
-                <input id="search-txt" type="text" name="q">
-                <input id="search-btn" type="submit" value="Search">
-                
+                <input id="search-txt" type="text" name="q" autofocus>
+                <div class="buttons">
+                    <input id="search-btn" type="submit" value="Search">
+                    <input name="btnI" id="lucky-btn" type="submit" value="I'm Feeling Lucky">
+                </div>
+
             </form>
         </div>
 

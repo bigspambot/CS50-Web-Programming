@@ -6,21 +6,70 @@
     </head>
     <body>
 
-        <div class="nav">
-            <a href="index.html">Back</a>
+        <div>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html">Back</a></li>
+            </ul>    
         </div>
 
-        <div class="google-img">
-            <img src="/images/google.png">
-        </div>
+        <div class="advanced-outer">
+            
+            <p>Advanced Search</p>
+            <div id="line"></div>
 
-        <div class="search">
-            <form action="https://www.google.com/search">
+            <div id="advanced-search">
+
+                <p id="find-pages-txt">Find pages with...</p>
+
+                <form action="https://www.google.com/search">
+
+                    <div class="row-input">
+                        <div class="left">
+                            <p class="advanced-form-labels">all these words:</p>
+                        </div>
+
+                        <div class="right">
+                            <input type="text" name="as_q" class="advanced-form-input"autofocus>
+                        </div>
+                    </div>  
+
+                    <div class="row-input">
+                        <div class="left">
+                            <p class="advanced-form-labels">this exact word or phrase:</p>
+                        </div>
+
+                        <div class="right">
+                            <input type="text" name="as_epk" class="advanced-form-input">
+                        </div>
+                    </div>  
+
+                    <div class="row-input">
+                        <div class="left">
+                            <p class="advanced-form-labels">any of these words:</p>
+                        </div>
+
+                        <div class="right">
+                            <input type="text" name="as_oq" class="advanced-form-input">
+                        </div>
+                    </div>  
+
+                    <div class="row-input">
+                        <div class="left">
+                            <p class="advanced-form-labels">none of these words:</p>
+                        </div>
+
+                        <div class="right">
+                            <input type="text" name="as-eq" class="advanced-form-input">
+                        </div>
+                    </div>      
                 
-                <input id="search-txt" type="text" name="q">
-                <input id="search-btn" type="submit" value="Advanced Search">
-                
-            </form>
+                    <div id="adv-search-btn-div">
+                        <input id="adv-search-btn" type="submit" value="Advanced Search">
+                    </div>
+
+                </form>
+            </div>
+
         </div>
         
     </body>
