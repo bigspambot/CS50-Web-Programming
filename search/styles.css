@@ -52,11 +52,16 @@ a:hover {
 }
 
 #search-btn, #lucky-btn {
-    margin: 20px 5px 0 5px;
-    border-radius: 5px;
+    margin: 25px 6px 0 6px;
+    border-radius: 3px;
     width: 120px;
-    height: 30px;
-    border: 1px solid grey;
+    height: 35px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+#search-btn:hover, #lucky-btn:hover {
+    border: 1px solid lightgrey;
 }
 
 .buttons {
